@@ -1,0 +1,32 @@
+table {
+			border-collapse:collapse;
+			border-spacing:10;
+			font-size:15px;
+			
+			}
+			
+			table th {
+			padding:5px;
+			color:#fff;
+			background-color:#2A72BA;
+			/*border-top:3px lime solid;
+			border-bottom:3px lime solid;*/
+			}
+			
+			table td {
+			padding:5px;
+			/*border-top:3px lime solid;
+			border-bottom:3px lime solid;*/
+			}
+			
+			tr:nth-child(even) td{
+			background-color: #DFEBF8;
+			color: gray;
+			border-right: 1px white solid;
+			}
+
+			tr:nth-child(odd) td{
+			background-color: #99ccff;
+			color: gray;
+			border-right: 1px white solid;
+			}
